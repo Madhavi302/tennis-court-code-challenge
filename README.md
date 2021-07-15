@@ -1,5 +1,54 @@
 # Tennis Courts - Challenge
 
+# Tennis Courts - Challenge - Solution Information
+
+
+**Problem :**
+5. As a Tennis Court Admin, I want to be able to Create/Update/Delete/Find by id/Find by name/List all the guests
+
+As a Tennis Court Admin, I want to be able to create schedule slots for a given tennis court
+
+
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes
+
+### Prerequisites
+
+JDk 1.8 or higher, Eclipse or any IDE, Postman to test APIs
+
+### Tech Stack
+
+Java, Maven, SpringBoot, Swagger
+
+### Running
+
+if you run application as Java Application or SpringBoot App, its going to deployed on default port 8080 in embeded tomcat server
+
+You can change the port number by configuring the value for server.port in application.properties file.
+
+ 
+Example
+
+Swagger Url:
+http://localhost:8080/swagger-ui.html
+
+ 
+Implemented the following  two functioanlities
+
+As a Tennis Court Admin, I want to be able to Create/Update/Delete/Find by id/Find by name/List all the guests
+
+As a Tennis Court Admin, I want to be able to create schedule slots for a given tennis court
+
+* Created custom mapper implementations
+
+* Verified and tested the creation of schedule
+
+* Added swagger annotations wherever requrired 
+
+* Developed unit testcases
+
 # Introduction 
 You have been tasked to fix some misimplementations of a backend API for a simple reservation platform for tennis players. Using this platform, users can book reservations on a variety of tennis courts that are registered on it. 
 
